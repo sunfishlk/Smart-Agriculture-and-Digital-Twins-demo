@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url('../images/背景图.png');
+
+
+  /* background-size: cover; */
+}
+
+.out{
+  position: absolute;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 557px;
+  height: 928px;
+  margin-top: 0px;
+  margin-left: 40px;
+
+}
+
+.right {
+  width: 557px;
+  height: 928px;
+  margin-top: 0px;
+  margin-right: 40px;
+
+}
+
+.middle {
+  width: 682px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+
+.middleA {
+  width: 682px;
+  height: 581px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(137, 146, 146); */
+
+}
+
+.middleB {
+  width: 682px;
+  height: 283px;
+  background-image: url('../images/框3.png');
+  background-size: auto auto;
+}
+
+.leftA,
+.rightA {
+  width: 557px;
+  height: 581px;
+  margin-bottom: 25px;
+  background-image: url('../images/框1.png');
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.diva {
+  margin-top: 20px;
+  width: 520px;
+  height: 300px;
+  /* background-color: antiquewhite; */
+}
+
+.divb {
+  margin: 0px 20px 0px 20px;
+  width: 520px;
+  height: 275px;
+  /* background-color: antiquewhite; */
+}
+
+/* .leftA_top {
+
+} */
+
+.leftB,
+.rightB {
+  width: 557px;
+  height: 283px;
+  background-image: url('../images/框21.png');
+
+}
+
+#weather {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 400px;
+}
+
+#line1 {
+  position: absolute;
+  height: 30px;
+  top: 25px;
+  right: 375px;
+}
+
+#time {
+  width: 180px;
+  height: 38px;
+  position: absolute;
+  top: 20px;
+  right: 170px;
+}
+
+#line2 {
+  position: absolute;
+  height: 30px;
+  top: 25px;
+  right: 150px;
+}
+
+#log {
+  position: absolute;
+  height: 40px;
+  top: 20px;
+  right: 30px;
+}
+
+#chart1 {
+  width: 100%;
+  height: 235px;
+  /* background-color: bisque; */
+}
+
+#chart2 {
+  width: 100%;
+  height: 235px;
+  /* background-color: bisque; */
+}
+
+#chart3 {
+  width: 100%;
+  height: 235px;
+  /* background-color: bisque; */
+}
+
+#chart4 {
+  width: 100%;
+  height: 235px;
+  /* background-color: bisque; */
+}
+
+#chart5 {
+  width: 520px;
+  height: 220px;
+  margin: 0px 20px 0px 20px;
+  /* background-color: aqua; */
+}
+
+#chart6 {
+  width: 520px;
+  height: 220px;
+  margin: 0px 20px 0px 20px;
+  /* background-color: aqua; */
+}
+
+#chart7 {
+  width: 100%;
+  margin: 0px 20px 0px 20px;
+  height: 210px;
+  /* background-color: aquamarine; */
+
+}

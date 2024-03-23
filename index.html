@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>智慧农业与数字孪生</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="css/model.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.common.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="title">智慧农业与数字孪生</div>
+  </header>  
+  <div class="card1">
+    <div class="text">基地情况</div>
+    <div id="left1"></div>
+  </div>
+  <div class="card2">
+    <div class="text">基地情况</div>
+    <div id="left2"></div>
+  </div>
+  <div class="card3">
+    <div class="text">降水量</div>
+    <div id="left3"></div>
+  </div>
+  <div class="card4">
+    <div class="text">种植情况</div>
+    <div id="right1"></div>
+  </div>
+  <div class="card5">
+    <div class="text">种植情况</div>
+    <div id="right2"></div>
+  </div>
+  <div class="card6">
+    <div class="text">降水量</div>
+    <div id="right3"></div>
+  </div>
+  <div id="container"></div>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../build/three.module.js",
+        "three/addons/": "./jsm/"
+      }
+    }
+	</script>
+  <script type="module" src="main.js"></script>
+  <script src="js/chart1.js"></script>
+  <script src="js/chart2.js"></script>
+  <script src="js/chart3.js"></script>
+  <script src="js/chart4.js"></script>
+  <script src="js/chart5.js"></script>
+  <script src="js/chart6.js"></script>
+  <script src="js/chart7.js"></script>
+</body>
+
+</html>

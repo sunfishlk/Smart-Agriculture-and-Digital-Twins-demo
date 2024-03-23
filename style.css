@@ -1,0 +1,90 @@
+@font-face{
+  font-family: 'DingTalk';
+  src: url('font/DingTalkJinBuTi.woff2');
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: 'DingTalk';
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100vw;
+  height: 60px;
+  font-size: 1.5rem;
+  background-image: url('images/header_bg.png');
+  background-size:100% 60px;
+}
+header>.title{
+  color: aqua;
+  position: relative;
+  top:10px;
+}
+.card1{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  left:0%;
+  top:8%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.text{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 4px;
+  font-family: 'DingTalk';
+}
+.card2{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  left:0%;
+  top:38%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.card3{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  left:0%;
+  top:68%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.card4{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  right:0%;
+  top:8%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.card5{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  right:0%;
+  top:38%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.card6{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: #061119;
+  right:0%;
+  top:68%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
